@@ -1,0 +1,202 @@
+html, body#biodata {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#biodata #outerwraper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#biodata aside {
+  width: 20%;
+  float: left;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  background-color: #313437;
+}
+
+#biodata aside .fprofile {
+  text-align: center;  
+  margin: 3em 0;
+}
+
+#biodata aside .fprofile img {
+  max-width: 75%;
+  border-radius: 100%;
+  border: 1px solid black;
+  background-color: wheat;
+}
+
+#biodata aside .sidemenu {
+  margin-top: 2em;
+}
+
+#biodata aside .sidemenu li {
+  margin-left: -2.0em;
+  margin-right: 1em;
+  border-bottom: solid 1px #eaeaea;
+  font-weight: bold;
+}
+
+#biodata aside .sidemenu li div {
+  padding: 1em 2em;
+}
+
+#biodata aside .sidemenu a {
+  text-decoration: none;
+  color: white;
+}
+
+#biodata aside .sidemenu a:hover {
+  color: #ffafafea;
+  transition: ease-in 0.3s;
+  background: black;
+}
+
+#biodata aside .sidemenu li:hover {
+  background: black;
+}
+
+#biodata article {
+  width: 80%;
+  float: right;
+  height: 100%;
+}
+
+#biodata #contact, #biodata #profile {
+  height: 100%;
+}
+
+#biodata h2 {
+  text-align: left;
+  padding: 0.5em 1.5em;
+  background-color: #313437;
+  color: white;
+  margin: 0;
+}
+
+#biodata .content {
+  margin: 3em;
+}
+
+#biodata .row {
+  margin: 1em 0;  
+}
+
+#biodata .row div {
+  text-indent: 2em;
+}
+
+#biodata .row label {
+  font-weight: bold;
+}
+
+#biodata li {
+  list-style: none;
+}
+
+#biodata #contact li {
+  display:block;
+  margin: 0.6em
+}
+
+#biodata #contact li img {
+  max-width: 2em;
+}
+
+#biodata #contact li a {
+  text-decoration: none;
+  color: blue;
+}
+
+#biodata #contact li a:hover {
+  color: purple;
+  transition: ease-out 0.6s;
+}
+
+@media screen and (max-width : 1000px) and (min-width : 851px){
+  #biodata aside {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width : 850px) {
+  #biodata aside {
+    width: 100%;
+    height: auto
+  }
+  
+  #biodata article {
+    width: 100%;
+    text-align: left;
+  }
+  
+  #biodata aside .fprofile {
+    text-align: left;  
+    padding: 1em 0 0 1em;
+    margin: 0;
+    float: left;
+  }
+  
+  #biodata aside .fprofile img {
+    width: 80px;
+  }
+  
+  #biodata aside>.sidemenu {
+    margin: 0;
+    padding: 0 1em;
+  }
+  
+  #biodata aside .sidemenu li {
+    border: none;
+  }
+  
+  #biodata aside .sidemenu li div {
+    float: left;
+    padding: 1em;
+  }
+  
+  #biodata h2 {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width :400px) and (min-width : 358px) {
+  #biodata .content {
+    margin: 3em 1em;
+  }
+}
+
+@media screen and (max-width :356px) {
+  #biodata html, body#biodata {
+    overflow-x: auto;
+  }
+}
+
+@media screen and (max-width :356px) {
+  #biodata .content {
+    margin: 5em 1em;
+  }
+}
+
+@media screen and (max-width :300px) {
+  html, body#biodata  {
+    overflow-y: auto;
+  }
+  
+  #biodata .content {
+    margin: 6em 1em;
+  }
+  
+  #biodata #contact, #biodata #profile {
+    height: auto;
+  }
+}

@@ -1,0 +1,23 @@
+body#home {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#welcomewrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  text-align: center;
+}
+
+#welcomewrapper .welcome {
+  font-size: 33pt;
+  display: block;
+}
+
+#welcomewrapper .menu li {
+  display: inline;
+  margin: 10px;
+}
